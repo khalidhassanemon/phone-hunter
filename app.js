@@ -109,6 +109,7 @@ phoneDetail.innerHTML=`
 <p>Release Date: ${phone.releaseDate ? phone.releaseDate : 'No release date found'}</p>
 <p>Storage:${phone.mainFeatures? phone.mainFeatures.storage:'No Storage information found'}</p>
 <p>Others:${phone.others ? phone.others.Bluetooth  :'No Blutooth support'}</p>
+<p>Sensors:${phone.mainFeatures.sensors ? phone.mainFeatures.sensors :'No Blutooth support'}</p>
 `;
 }
 // loadPhone('apple');
