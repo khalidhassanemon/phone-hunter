@@ -111,4 +111,4 @@ phoneDetail.innerHTML=`
 <p>Others:${phone.others ? phone.others.Bluetooth  :'No Blutooth support'}</p>
 `;
 }
-loadPhone('apple');
+// loadPhone('apple');
